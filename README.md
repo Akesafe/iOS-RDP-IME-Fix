@@ -2,7 +2,12 @@
 
 <img width="342" height="270" alt="image" src="https://github.com/user-attachments/assets/7facf134-c728-419f-9179-3755b2580264" />
 
-用于修复在 iOS/iPadOS 上使用微软官方远程桌面客户端（Windows App）连接 Windows 时，PC端的中文输入法（IME）无法唤起的问题。理论上也适用于日文、韩文等使用 Windows IME 框架的语言，并可兼容部分不需要单独使用 Caps Lock、Shift 和 Ctrl 的游戏。无需在平板/手机上配置，只需要在PC端运行软件即可。
+用于修复在 iOS/iPadOS （手机or平板）上使用微软官方远程桌面客户端（Windows App）连接 Windows 时，PC电脑端的中文输入法（IME）无法唤起的问题。理论上也适用于日文、韩文等使用 Windows IME 框架的语言，并可兼容部分不需要单独使用 Caps Lock、Shift 和 Ctrl 的游戏。无需在平板/手机上配置，只需要在PC端运行软件即可。
+
+### 📑 用法
+在PC上运行本软件，并切换到中文输入法；
+
+在iOS端安装Windows App并通过RDP连接到电脑，将iOS端的输入法设置成英文。另外，推荐连接实体键盘后，在iPad/iPhone上进入设置-通用-键盘-实体键盘，关闭“使用大写锁定切换语言”功能。
 
 ### 🔧 原理
 
